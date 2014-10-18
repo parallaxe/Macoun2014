@@ -1,0 +1,17 @@
+//
+//  clang.xcconfig
+//  ASTMatchersTest
+//
+//  Created by Hendrik von Prince on 25/08/14.
+//  Copyright (c) 2014 Hendrik von Prince. All rights reserved.
+//
+
+// This configuration assumes that you have installed clang to $(HOME)/usr/local.
+// If this is not the case, you have to adapt OTHER_LDFLAGS and HEADER_SEARCH_PATHS accordingly
+
+OTHER_LDFLAGS=-L$HOME/usr/local/lib -lclangTooling -lclangFrontend -lclangFrontendTool -lclangDriver -lclangStaticAnalyzerCheckers -lclangStaticAnalyzerCore -lclangSerialization -lclangParse -lclangSema -lclangAnalysis -lclangEdit -lclangAST -lclangASTMatchers -lclangDynamicASTMatchers -lclangLex -lclangBasic -lLLVMTableGen -lLLVMDebugInfo -lLLVMOption -lLLVMX86Disassembler -lLLVMX86AsmParser -lLLVMX86CodeGen -lLLVMSelectionDAG -lLLVMAsmPrinter -lLLVMX86Desc -lLLVMX86Info -lLLVMX86AsmPrinter -lLLVMX86Utils -lLLVMIRReader -lLLVMBitReader -lLLVMAsmParser -lLLVMMCDisassembler -lLLVMMCParser -lLLVMInstrumentation -lLLVMInterpreter -lLLVMipo -lLLVMVectorize -lLLVMLinker -lLLVMBitWriter -lLLVMMCJIT -lLLVMJIT -lLLVMCodeGen -lLLVMObjCARCOpts -lLLVMScalarOpts -lLLVMInstCombine -lLLVMTransformUtils -lLLVMipa -lLLVMAnalysis -lLLVMRuntimeDyld -lLLVMExecutionEngine -lLLVMTarget -lLLVMMC -lLLVMObject -lLLVMCore -lLLVMSupport
+HEADER_SEARCH_PATHS=$(HOME)/usr/local/include
+OTHER_CPLUSPLUSFLAGS=-D_DEBUG -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -stdlib=libc++ -std=c++11 -fvisibility-inlines-hidden -fno-exceptions -fno-rtti -fno-common -Woverloaded-virtual -Wcast-qual
+
+// deactivate this warning, else we will get dozens of warnings from clang
+GCC_WARN_64_TO_32_BIT_CONVERSION=NO

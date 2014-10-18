@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382579BB19AAA2A700892A12 /* Breakpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382579B919AAA2A700892A12 /* Breakpoint.cpp */; };
+		3828224E19E01B6100555038 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38C6469819D48ABA00049950 /* main.cpp */; };
+		38AB9B8F191E791500C428F6 /* libcurses.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AB9B8E191E791500C428F6 /* libcurses.dylib */; };
+		38AB9B91191E7C7E00C428F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AB9B90191E7C7E00C428F6 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38AB9B7F191E747A00C428F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		382579B919AAA2A700892A12 /* Breakpoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Breakpoint.cpp; path = XCodeBreakpointGenerator/Breakpoint.cpp; sourceTree = SOURCE_ROOT; };
+		382579BA19AAA2A700892A12 /* Breakpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Breakpoint.h; path = XCodeBreakpointGenerator/Breakpoint.h; sourceTree = SOURCE_ROOT; };
+		382BDFD819B352EE0083B0E0 /* main_presentation2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main_presentation2.cpp; path = XCodeBreakpointGenerator/main_presentation2.cpp; sourceTree = SOURCE_ROOT; };
+		382BDFD919B352EE0083B0E0 /* main_presentation3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main_presentation3.cpp; path = XCodeBreakpointGenerator/main_presentation3.cpp; sourceTree = SOURCE_ROOT; };
+		382BDFDB19B352EE0083B0E0 /* main_presentation1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main_presentation1.cpp; path = XCodeBreakpointGenerator/main_presentation1.cpp; sourceTree = SOURCE_ROOT; };
+		38AB9B81191E747A00C428F6 /* XcodeBreakpointGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeBreakpointGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AB9B8D191E74B700C428F6 /* clang.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = clang.xcconfig; sourceTree = "<group>"; };
+		38AB9B8E191E791500C428F6 /* libcurses.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurses.dylib; path = usr/lib/libcurses.dylib; sourceTree = SDKROOT; };
+		38AB9B90191E7C7E00C428F6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		38C6469819D48ABA00049950 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = XCodeBreakpointGenerator/main.cpp; sourceTree = SOURCE_ROOT; };
+		38F2A6DE19D49C930035F5F3 /* main_presentation5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main_presentation5.cpp; path = XCodeBreakpointGenerator/main_presentation5.cpp; sourceTree = SOURCE_ROOT; };
+		38F2A6E019D49DD20035F5F3 /* main_presentation4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main_presentation4.cpp; path = XCodeBreakpointGenerator/main_presentation4.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38AB9B7E191E747A00C428F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38AB9B91191E7C7E00C428F6 /* libz.dylib in Frameworks */,
+				38AB9B8F191E791500C428F6 /* libcurses.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38AB9B78191E747A00C428F6 = {
+			isa = PBXGroup;
+			children = (
+				38AB9B90191E7C7E00C428F6 /* libz.dylib */,
+				38AB9B8E191E791500C428F6 /* libcurses.dylib */,
+				38AB9B8D191E74B700C428F6 /* clang.xcconfig */,
+				38AB9B83191E747A00C428F6 /* XcodeBreakpointGenerator */,
+				38AB9B82191E747A00C428F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38AB9B82191E747A00C428F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38AB9B81191E747A00C428F6 /* XcodeBreakpointGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38AB9B83191E747A00C428F6 /* XcodeBreakpointGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				382BDFDB19B352EE0083B0E0 /* main_presentation1.cpp */,
+				382BDFD819B352EE0083B0E0 /* main_presentation2.cpp */,
+				382BDFD919B352EE0083B0E0 /* main_presentation3.cpp */,
+				38F2A6E019D49DD20035F5F3 /* main_presentation4.cpp */,
+				38F2A6DE19D49C930035F5F3 /* main_presentation5.cpp */,
+				38C6469819D48ABA00049950 /* main.cpp */,
+				382579BA19AAA2A700892A12 /* Breakpoint.h */,
+				382579B919AAA2A700892A12 /* Breakpoint.cpp */,
+			);
+			name = XcodeBreakpointGenerator;
+			path = ASTMatchersTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38AB9B80191E747A00C428F6 /* XcodeBreakpointGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38AB9B8A191E747A00C428F6 /* Build configuration list for PBXNativeTarget "XcodeBreakpointGenerator" */;
+			buildPhases = (
+				38AB9B7D191E747A00C428F6 /* Sources */,
+				38AB9B7E191E747A00C428F6 /* Frameworks */,
+				38AB9B7F191E747A00C428F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeBreakpointGenerator;
+			productName = ASTMatchersTest;
+			productReference = 38AB9B81191E747A00C428F6 /* XcodeBreakpointGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38AB9B79191E747A00C428F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hendrik von Prince";
+			};
+			buildConfigurationList = 38AB9B7C191E747A00C428F6 /* Build configuration list for PBXProject "XcodeBreakpointGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38AB9B78191E747A00C428F6;
+			productRefGroup = 38AB9B82191E747A00C428F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38AB9B80191E747A00C428F6 /* XcodeBreakpointGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38AB9B7D191E747A00C428F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3828224E19E01B6100555038 /* main.cpp in Sources */,
+				382579BB19AAA2A700892A12 /* Breakpoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38AB9B88191E747A00C428F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AB9B8D191E74B700C428F6 /* clang.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"$(inherited)",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38AB9B89191E747A00C428F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AB9B8D191E74B700C428F6 /* clang.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"$(inherited)",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38AB9B8B191E747A00C428F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AB9B8D191E74B700C428F6 /* clang.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/usr/local/";
+				PRODUCT_NAME = XcodeBreakpointGenerator;
+			};
+			name = Debug;
+		};
+		38AB9B8C191E747A00C428F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AB9B8D191E74B700C428F6 /* clang.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/usr/local/";
+				PRODUCT_NAME = XcodeBreakpointGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38AB9B7C191E747A00C428F6 /* Build configuration list for PBXProject "XcodeBreakpointGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AB9B88191E747A00C428F6 /* Debug */,
+				38AB9B89191E747A00C428F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38AB9B8A191E747A00C428F6 /* Build configuration list for PBXNativeTarget "XcodeBreakpointGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38AB9B8B191E747A00C428F6 /* Debug */,
+				38AB9B8C191E747A00C428F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38AB9B79191E747A00C428F6 /* Project object */;
+}

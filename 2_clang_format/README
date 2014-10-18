@@ -1,0 +1,13 @@
+Anschauen wie eine Datei nach clang-formats Formatierung aussieht:
+	clang-format clang_format_example.m
+Die Datei formatieren:
+	clang-format -i clang_format_example.m
+Die Formatierung von Zeilenbereiche einschränken:
+	clang-format -lines 1:1 clang_format_example.m
+	clang-format -lines 6:10 clang_format_example.m
+Die aktuelle Formatierungskonfiguration ausgeben:
+	clang-format -dump-config
+Eine eigene Formatierungsdatei erstellen:
+	clang-format -dump-config > .clang-format
+clang-format kann noch ein paar Sachen mehr:
+	clang-format -help

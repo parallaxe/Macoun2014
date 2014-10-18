@@ -1,0 +1,6 @@
+[
+{"directory" : "THISPATH",
+"command" : "clang clang_query_example.m",
+"file" : "clang_query_example.m"
+}
+]

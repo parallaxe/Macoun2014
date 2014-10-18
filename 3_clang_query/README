@@ -1,0 +1,22 @@
+Die compile_commands.json an das aktuelle Verzeichnis anpasssen:
+in bash:
+	sed -i .orig "s@THISPATH@"`pwd`"@g" compile_commands.json
+in fish:
+	sed -i .orig "s@THISPATH@"(pwd)"@g" compile_commands.json
+
+clang-query starten:
+	xcrun clang-query clang_query_example.m
+
+dann in clang-query rumprobieren:
+	match objcInterface()
+	set output print
+	match objcInterface(isInMainFile())
+	set output dump
+	match objcInterface(isInMainFile())
+	match objcInterface(isInMainFile(), has(objcProperty()))
+	match objcInterface(isInMainFile(), has(objcProperty(hasName("settings"))))
+
+^D um es zu verlassen
+
+Einen Query direkt ausführen:
+	xcrun clang-query clang_query_example.m -c "set output print' -c 'match objcInterface(isInMainFile(), unless(matchesName("[A-Z]{4}.*")))'

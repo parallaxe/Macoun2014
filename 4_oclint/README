@@ -1,0 +1,13 @@
+compile_commands.json erstellen:
+	xcodebuild clean
+	xcodebuild -arch armv7s build > xcodebuild.log
+	oclint-xcodebuild
+
+oclint auf eine einzelne Datei ausführen:
+	oclint  oclint_example/FirstViewController.m
+
+oclint auf alle Dateien in compile_commands.json ausführen:
+	oclint-json-compilation-database
+
+oclint-Ergebnise als HTML ausgeben lassen:
+	oclint -report-type=html -o oclint_result.html

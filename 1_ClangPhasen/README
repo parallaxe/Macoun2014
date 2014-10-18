@@ -1,0 +1,6 @@
+Das Ergebnis der Präprozessor-Phase ansehen:
+	clang -E tokenexample.m
+Das Ergebnis der Lexer-Phase ansehen:
+	clang -Xclang -dump-tokens tokenexample.m
+Den Abstract Syntax Tree ansehen:
+	clang -Xclang -ast-dump tokenexample.m
